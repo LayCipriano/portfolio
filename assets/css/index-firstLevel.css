@@ -1,0 +1,25 @@
+/* primeiro nível ilustração+texto */
+.first-level {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #111418;
+}
+
+.first-left img {
+    width: 500px;
+    height: 500px;
+}
+
+.first-left {
+    display: flex;
+}
+
+.first-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+/* fim do primeiro nível */

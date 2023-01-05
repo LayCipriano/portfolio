@@ -1,0 +1,46 @@
+/* segundo nível */
+.second-level {
+    background-color: #1C2127;
+    display: flex;
+    width: 100%;
+    min-height: 360px;
+    justify-content: space-evenly;
+}
+/* esquerda */
+.second-level h1 {
+    font-family: Montserrat;
+    font-size: 47px;
+    text-shadow: -4px -3px rgba(126, 87, 194, 0.3);
+    padding-bottom: 35px;
+    padding-top: 22px;
+}
+.second-level p {
+    width: 400px;
+    text-align: justify;
+    font-family: Quicksand;
+    padding-left: 3px;
+}
+/* direita */
+.second-right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.second-right p {
+    padding-left: 10px;
+}
+
+.second-right h1 {
+    font-family: Montserrat;
+}
+.second-right img {
+    width: 50px;
+    height: 50px;
+}
+.align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* fim do segundo nível */

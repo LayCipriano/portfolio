@@ -1,0 +1,111 @@
+/* quarto nível */
+.fourth-level {
+    background-color: #3B3D40;
+    display: flex;
+    /* width: 100%; */
+    min-height: 300px;
+    justify-content: space-around;
+    
+}
+/* esquerda */
+.fourth-level h1 {
+    font-family: Montserrat;
+    font-size: 47px;
+    text-shadow: -4px -3px rgba(126, 87, 194, 0.3);
+    padding-bottom: 35px;
+    padding-top: 22px;
+    margin-left: 27%;
+}
+.fourth-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.fourth-left-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.fourth-left p {
+    text-align: justify;
+    font-family: Quicksand;
+    padding-left: 3px;
+    padding-left: 27%;
+}
+.fourth-left-social {
+    display: flex;
+    height: 120px;
+    align-items: flex-end;
+    gap: 40px;
+}
+.fourth-left-social img {
+    width: 35px;
+    height: 35px;
+}
+.fourth-left-social .email {
+    display: flex;
+    align-items: flex-end;
+    width: 35px;
+    height: 44px;
+}
+/* fim esquerda */
+/* direta */
+.fourth-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.fourth-right h2 {
+    font-size: 18px;
+    text-align: justify;
+    width: 400px;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.fourth-right > form {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    margin: 18px 0;
+    font-size: 15px;
+    background-color: rgba(17, 20, 24, 0.2);
+    margin-right:18.5%;
+    font-family: Quicksand;
+}
+label {
+    margin-top: 5px;
+}
+input {
+    outline: 0;
+    height: 22px;
+}
+textarea {
+    outline: 0;
+    height: 100px ;
+    font-family: Quicksand;
+    padding-left: 5px;
+
+}
+.btn {
+    height: 25px;
+    margin-top: 10px;
+    background-color: #7f11e0;
+    border: none;
+    color: white;
+    transition: 1s;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid #7f11e0;
+    cursor: pointer;
+}
+/* fim direta */
+/* fim do quarto nível */

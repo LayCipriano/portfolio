@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+
+/* section header/nav */
+header {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #111418;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.links-navegacao {
+    font-family: Montserrat;
+    font-size: 18px;
+    display: flex;
+    gap: 40px;  
+}
+.links-navegacao a {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.links-navegacao :hover{
+    color: #7E57C2;
+    transition: 1s;
+}
+/* fim da section header/nav */
+
+/* personalização das tags span */
+.change-color {
+    color: #7E57C2;
+}
+h1 {
+    font-family: Quicksand;
+}
+h2 {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+/* fim da parsonalização das tags span */
+/* botão subir ao topo */
+#topo {
+    color: white;
+    background-color: #7E57C2;
+    text-decoration: none;
+    padding: 18px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+/* fim do botão subir ao topo */
+/* rodapé */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #111418;
+    height: 100px;
+}
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 10%;
+}
+.footer-left h3 {
+    font-family: Montserrat;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.footer-left p {
+    font-family: Quicksand;
+}
+.footer-right {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-family: Quicksand;
+}
+
+/* fim do rodapé */

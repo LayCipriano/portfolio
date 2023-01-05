@@ -1,0 +1,58 @@
+.third-level h1{
+    font-family: Montserrat;
+    font-size: 47px;
+    text-shadow: -4px -3px rgba(126, 87, 194, 0.3);
+    padding-bottom: 35px;
+}
+.third-level {
+    background-color: #26282C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 300px;
+}
+.third-up {
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+}
+.thirdDown-level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    position:relative;
+}
+.projeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 185px;
+    width: 300px;
+
+    background-color: #7E57C2;
+    transition: 0.5s linear;
+}
+.projeto p {
+    width: 100%;
+    font-family: Quicksand;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    text-align: center;
+}
+.projeto a {
+    text-decoration: none;
+}
+.projeto:hover {
+    transform: scale(1.1);
+}
+.soon {
+    font-size: 18px;
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
