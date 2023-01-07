@@ -60,6 +60,7 @@ h2 {
     position: fixed;
     right: 10px;
     bottom: 10px;
+    border-radius: 100%;
 }
 /* fim do botão subir ao topo */
 /* rodapé */
@@ -84,6 +85,13 @@ footer {
 .footer-left p {
     font-family: Quicksand;
 }
+.footer-left a {
+    text-decoration: none;
+    color: #7E57C2;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: bold;
+}
 .footer-right {
     display: flex;
     justify-content: center;
@@ -91,4 +99,10 @@ footer {
     font-family: Quicksand;
 }
 
+.footer-right a {
+    text-decoration: none;
+    color: #7E57C2;
+    font-family: Montserrat;
+    font-weight: bold;
+}
 /* fim do rodapé */

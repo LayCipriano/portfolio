@@ -1,14 +1,28 @@
-var btn = document.getElementById('btn-moreLess');
-        
-btn.addEventListener('click', function(){
-    var thirdDown = document.querySelector('.third-down');
-    // var moreLess = document.querySelector('.btn-moreLess');
-    thirdDown.classList.toggle('active');
-    // moreLess.classList.toggle('active');
+function scrollTo (element) {
+    document.querySelector(element).scrollIntoView({behavior: 'smooth'});
+}
 
-    if ( thirdDown.classList.contains('active')) {
-        return btn.textContent = 'Ver Menos';
-    } else {
-        return btn.textContent = 'Ver Mais';
-    }
+document.querySelector('#topo').addEventListener('click', function (event) {
+    event.preventDefault();
+    scrollTo('.logotipo');
+});
+
+document.querySelector('#about').addEventListener('click', function (event) {
+    event.preventDefault();
+    scrollTo('#second-left');
+});
+
+document.querySelector('#skills').addEventListener('click', function (event) {
+    event.preventDefault();
+    scrollTo('#second-right');
+});
+
+document.querySelector('#portfolio').addEventListener('click', function (event) {
+    event.preventDefault();
+    scrollTo('#third-level');
+});
+
+document.querySelector('#contact').addEventListener('click', function (event) {
+    event.preventDefault();
+    scrollTo('#fourth-level');
 });
