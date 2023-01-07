@@ -1,0 +1,36 @@
+/* primeiro nível ilustração+texto */
+.first-level {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 85vh;
+    background-color: #111418;
+}
+
+.first-left img {
+    width: 500px;
+    height: 500px;
+}
+
+.first-left {
+    display: flex;
+}
+
+.first-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.second-right {
+    margin-top: 100px;
+}
+
+.second-right a {
+    text-decoration: none;
+    color: #7E57C2;
+}
+
+/* fim do primeiro nível */

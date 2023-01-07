@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    height: 100vh;
+}
+
+/* personalização das tags span */
+.change-color {
+    color: #7E57C2;
+}
+h1 {
+    font-family: Quicksand;
+}
+.FR {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* rodapé */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #111418;
+    height: 100px;
+}
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 10%;
+}
+.footer-left h3 {
+    font-family: Montserrat;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.footer-left p {
+    font-family: Quicksand;
+}
+.footer-left a {
+    text-decoration: none;
+    color: #7E57C2;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.footer-right {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-family: Quicksand;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: #7E57C2;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+/* fim do rodapé */
