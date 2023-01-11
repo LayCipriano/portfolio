@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content="vIl0GQqZh0MiIfu8AXcQtOEB9rb-BNzyMG7gTMxuEFM" />
+    <meta name="msvalidate.01" content="1947B5E745FAE907A1EB44F3A4F02AA8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Laysa Altheman">
-    <meta name="description" content="Portfólio da front-end web developer Laysa Altheman">
+    <meta name="description" content="Portfolio da front-end web developer Laysa Altheman">
     <meta name="keywords" content="portfolio, html, css, javascript, front-end, desenvolvimento, web designer, web developer, construção de sites">
     <meta name="robots" content="index, follow">
     <link rel="icon" type="image/x-icon" href="./assets/img/png/outline-preto-logo.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/index-firstLevel.css">
     <link rel="stylesheet" href="./assets/css/index-secondLevel.css">
     <link rel="stylesheet" href="./assets/css/index-thirdLevel.css">
     <link rel="stylesheet" href="./assets/css/index-fourthLevel.css">
+
+    <!-- <link rel="stylesheet" href="./assets/css/mobile/mobile.css"> -->
     <title>Lay Altheman | Front End Web Developer</title>
 </head>
 <body>
@@ -26,17 +30,20 @@
         <header>
             <div class="logotipo">
                 <p class="logo">
-                    <a href="https://www.layaltheman.com/"><img src="./assets/img/svg/portfolio.svg" alt="Logo do portfólio de Lay Altheman front-end web developer"></a> 
+                    <a href="https://www.layaltheman.com/"><img src="./assets/img/svg/portfolio.svg" alt="Logo do portfolio de Lay Altheman front-end web developer"></a> 
                 </p>
             </div> 
         <!-- links de navegação -->
             <nav>
-                <div class="links-navegacao">
-                    <a href="https://www.layaltheman.com/">HOME</a>
-                    <a href="#sobre" id="about">SOBRE</a>
-                    <a href="#habilidades" id="skills">HABILIDADES</a>
-                    <a href="#portfolio" id="portfolio">PORTFÓLIO</a>
-                    <a href="#contato" id="contact">CONTATO</a>
+                <a id="menu">☰</a>
+                <div class="links-navega">
+                    <div class="outros-links">
+                        <a href="https://www.layaltheman.com/">HOME</a>
+                        <a href="#sobre" id="about">SOBRE</a>
+                        <a href="#habilidades" id="skills">HABILIDADES</a>
+                        <a href="#portfolio" id="portfolio">PORTFOLIO</a>
+                        <a href="#contato" id="contact">CONTATO</a>
+                    </div>
                 </div>
             </nav>
          </header>
@@ -63,30 +70,21 @@
                         Agora me dedico a entender e <span class="change-color SL">desenvolver soluções</span> 
                         por meio da tecnologia.
                     </p>
-                    <br><br>
+                    <br>
                     <p>Tenho mais <span class="change-color second-Sl">afinidade</span> com o desenvolvimento Front-End, 
                         mas <span class="change-color third-Sl">sou uma apaixonada pelo Back-End</span> então me dedico 
                         ao aprendizado e prática de ambos em algumas aplicações que desenvolvo.</p>
+                    <br>
                 </div>
             </div>
             <div class="second-right" id="second-right">
                 <h1><a name="habilidades"></a>Habilidades</h1>
                 <div class="align">
                     <img src="./assets/img/png/color-HTML.png" alt="Domínio da habilidade HTML5: 9/10">
-                        <p> Domínio: 7/10</p>
-                </div>
-                <div class="align">
                     <img src="./assets/img/png/color-CSS.png" alt="Domínio da habilidade CSS3: 9/10">
-                        <p>Domínio: 7/10</p>
-                </div>
-                <div class="align">
                     <img src="./assets/img/png/color-JS.png" alt="Domínio da habilidade Javascript: 6/10">
-                        <p>Domínio: 7/10</p>
-                </div>
-                <div class="align">
                     <img src="./assets/img/png/color-PHP.png" alt="Domínio da habilidade PHP: 3/10">
-                        <p>Domínio: 5/10</p>
-                    </div>
+                </div>
             </div>
         </div>
         <!-- fim do segundo nível -->
@@ -102,7 +100,6 @@
                     <div class="projeto">
                         <h2 class="soon">Em Breve</h2>
                         <p>Link de acesso: <a href="#">www.meusite.com</a></p>
-
                     </div>
                     <div class="projeto">
                         <h2 class="soon">Em Breve</h2>
@@ -111,14 +108,13 @@
                 </div>
             </div>
         </div>
-        </div>
         <!-- fim do terceiro nível -->
         <!-- quarto nível -->
         <div class="fourth-level" id="fourth-level">
             <div class="fourth-left">
                 <h1><a name="contato"></a>Contato</h1>
                 <p>Estou em busca de uma experiência “oficial” na área!
-                    <br><br>Vamos conversar?</p>
+                    <br>Vamos conversar?</p>
                 <div class="fourth-left-social">
                         <a href="https://github.com/LayAltheman" target="_blank"><img class="github" src="./assets/img/png/outline-github.png" alt="Link para o github da desenvolvedora"></a>
                         <a href="https://www.linkedin.com/in/laysa-alexia-lima-altheman-12819b155/" target="_blank"><img class="linkedin" src="./assets/img/png/outline-linkedin.png" alt="Link para o linkedin da desenvolvedora"></a>
@@ -127,7 +123,7 @@
                 </div>
             </div>
             <div class="fourth-right">
-                    <form action="./assets/php/formulario.php" method="post">
+                <form action="./assets/php/formulario.php" method="post" class="form">
                     <h2>Preencha o formulário ou, se preferir, encaminhe um 
                         e-mail direto para mim no <span class="change-color">
                         contato@layaltheman.com</span></h2>
@@ -139,25 +135,25 @@
                         <label for="message">O que você procura?</label>
                         <textarea id="message" name="message" placeholder="digite aqui..." class="input" required></textarea>
                         <button type="submit" class="btn" name="btn-contato">Enviar</button>
-                    </form>
-                </div>
+                </form>
             </div>
+        </div>
         <!-- fim do quarto nivel -->
     </main>
     <!-- fim do conteúdo principal -->
     <!-- topo -->
-    <a id="topo" href="#">▲</a>
+    <div id="topo">▲</div>
     <!-- fim do topo -->
     <!-- rodapé -->
     <footer>
         <div class="footer-left">
-                <h3>Atribuições</h3>
-                <p>Ícones: <a href="https://www.flaticon.com/" target="_blank">flaticon</a></p>
-                <p>Ilustrações: <a href="https://storyset.com/" target="_blank">storyset</a></p>
-            </div>
-            <div class="footer-right">
-                <p>Desenvolvido por <a href="https://www.layaltheman.com/">Lay Altheman</a></p>
-            </div>
+            <h3>Atribuições</h3>
+            <p>Ícones: <a href="https://www.flaticon.com/" target="_blank">flaticon</a></p>
+            <p>Ilustrações: <a href="https://storyset.com/" target="_blank">storyset</a></p>
+        </div>
+        <div class="footer-right">
+            <p>Desenvolvido por <a href="https://www.layaltheman.com/">Lay Altheman</a></p>
+        </div>
     </footer>
     <!-- fim do rodapé -->
     <script src="./assets/js/index.js"></script>
