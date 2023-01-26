@@ -13,3 +13,6 @@ Portfólio desenvolvido como primeiro projeto real, demonstrando domínio de hab
 
 ## Back end
 - PHP
+
+## Prototipação
+- Figma
