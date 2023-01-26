@@ -8,8 +8,8 @@
 
     //Corpo email
     $arquivo = "Nome: $nome
-                E-mail: $emai
-                Mensagem: $mensage";
+                E-mail: $email
+                Mensagem: $mensagem";
     
         //destino dos e-mail
     $destino = "contato@layaltheman.com";
