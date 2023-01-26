@@ -34,7 +34,7 @@
     width: 300px;
     border-radius: 30px 0;
 
-    background-color: #7E57C2;
+    background-color: #7e57c2;
     transition: 0.5s linear;
 }
 .projeto p {
@@ -48,6 +48,8 @@
 }
 .projeto a {
     text-decoration: none;
+    color: #111418;
+    font-weight:bolder;
 }
 .projeto:hover {
     transform: scale(1.1);
@@ -58,4 +60,13 @@
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+}
+.one {
+    background-image: url('/assets/img/jpg/easyMessage.jpeg');
+    background-size: 320px 200px;
+}
+.blur {
+    background-color: rgba(126, 87, 194, 0.8);
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    padding: 5px 0;
 }

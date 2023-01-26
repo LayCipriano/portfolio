@@ -162,6 +162,9 @@
         font-family: Montserrat;
         font-weight: bold;
     }
+    .one {
+        background-size: 320px 200px;
+    }
     /* third level end -------------------------------------------- */
     /* fourth level start -------------------------------------------- */
     .fourth-level {
