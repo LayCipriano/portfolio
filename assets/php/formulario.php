@@ -7,9 +7,10 @@
 
 
     //Corpo email
-    $arquivo = "Nome: $nome
-                E-mail: $email
-                Mensagem: $mensagem";
+    $arquivo = 
+    "Nome: $nome
+    E-mail: $email
+    Mensagem: $mensagem";
     
         //destino dos e-mail
     $destino = "contato@layaltheman.com";
@@ -24,10 +25,5 @@
     mail($destino, $assunto, $arquivo, $headers);
     
     header("Location: ../pages/thankYou.html");
-    // exit();
-    // } else {
-    //     include_once('../falhaCarregamento.html');
-    //     echo "<meta http-equiv='refresh' content='5;URL=../index.html'>";
-
     }
 ?>
