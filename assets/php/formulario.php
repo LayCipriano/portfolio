@@ -7,11 +7,9 @@
 
 
     //Corpo email
-    $arquivo = "<html>
-        <p><b>Nome: </b>$nome</p>
-        <p><b>E-mail: </b>$email</p>
-        <p><b>Mensagem: </b>$mensagem</p>
-        </html>";
+    $arquivo = "Nome: $nome
+                E-mail: $emai
+                Mensagem: $mensage";
     
         //destino dos e-mail
     $destino = "contato@layaltheman.com";
