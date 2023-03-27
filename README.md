@@ -12,7 +12,7 @@ Portfólio desenvolvido como primeiro projeto real, demonstrando domínio de hab
 - HTML / CSS / JavaScript
 
 ## Back end
-- PHP
+- PHP para o envio do formulário de contato
 
 ## Prototipação
 - Figma
