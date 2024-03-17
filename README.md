@@ -1,5 +1,5 @@
 # Sobre o Projeto
-https://www.layaltheman.com/
+laycipriano.github.io/portfolioV2/
 
 Portfólio desenvolvido como primeiro projeto real, demonstrando domínio de habilidades com desenvolvimento front-end.
 
